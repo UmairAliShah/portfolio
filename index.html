@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umair Ali - Personal Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">UA</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h1 class="hero-title">Hi, I'm <span class="highlight">Umair Ali</span></h1>
+            <h2 class="hero-subtitle">Senior DevOps Engineer</h2>
+            <p class="hero-description">I build reliable, secure, and scalable platforms that help teams ship faster with confidence.</p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                <a href="#certifications" class="btn btn-secondary">View My Certifications</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <div class="about-intro">
+                        <h3>Hello! I'm <span class="highlight">Umair Ali</span></h3>
+                        <p class="intro-text">A results-driven <strong>Senior DevOps Engineer</strong> focused on building reliable, scalable, and secure platforms that enable teams to ship faster with confidence.</p>
+                    </div>
+                    
+                    <div class="about-description">
+                        <p>I design and operate cloud-native infrastructure, codify environments with Infrastructure as Code, and orchestrate containerized workloads. I build end-to-end CI/CD pipelines, implement progressive delivery strategies, and embed observability from day one.</p>
+                        <p>My focus is faster, safer releases—reducing MTTR, improving reliability, and strengthening security with automation, policy-as-code, secrets management, and least-privilege access. I partner with developers to automate everything from builds and tests to blue-green and canary deployments.</p>
+                    </div>
+                </div>
+                <div class="about-highlights">
+                    <div class="highlight-item">
+                        <i class="fas fa-cloud"></i>
+                        <div>
+                            <h4>Cloud Architecture</h4>
+                            <p>Designing scalable and resilient cloud solutions</p>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-code-branch"></i>
+                        <div>
+                            <h4>CI/CD Pipelines</h4>
+                            <p>Building automated deployment workflows</p>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-shield-halved"></i>
+                        <div>
+                            <h4>Security & Compliance</h4>
+                            <p>Implementing security best practices</p>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-network-wired"></i>
+                        <div>
+                            <h4>Network Management</h4>
+                            <p>Optimizing and securing network infrastructure</p>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-server"></i>
+                        <div>
+                            <h4>Infrastructure as Code</h4>
+                            <p>Automating infrastructure provisioning and management</p>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-tools"></i>
+                        <div>
+                            <h4>Tooling & Automation</h4>
+                            <p>Streamlining processes with custom tools and scripts</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-tabs">
+                <button class="tab-button active" data-tab="cloud">Cloud Platform</button>
+                <button class="tab-button" data-tab="container">Containerization & Orchestration</button>
+                <button class="tab-button" data-tab="iac">Infrastructure as Code</button>
+                <button class="tab-button" data-tab="monitoring">Logging & Monitoring</button>
+                <button class="tab-button" data-tab="cicd">CI/CD Tools</button>
+                <button class="tab-button" data-tab="programming">Programming & Scripting</button>
+            </div>
+                <div class="skills-content active" id="cloud">
+                    <div class="skill-item">
+                        <i class="fab fa-aws skill-icon"></i>
+                        <div class="skill-name">AWS</div>
+                    </div>
+                </div>
+                <div class="skills-content" id="container">
+                    <div class="skill-item">
+                        <i class="fab fa-docker skill-icon"></i>
+                        <div class="skill-name">Docker</div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-cubes skill-icon"></i>
+                        <div class="skill-name">Kubernetes</div>
+                    </div>
+                </div>
+                <div class="skills-content" id="iac">
+                    <div class="skill-item">
+                        <i class="fas fa-code-branch skill-icon"></i>
+                        <div class="skill-name">Terraform</div>
+                    </div>
+                </div>
+                <div class="skills-content" id="monitoring">
+                    <div class="skill-item">
+                        <i class="fas fa-chart-line skill-icon"></i>
+                        <div class="skill-name">Datadog</div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-chart-bar skill-icon"></i>
+                        <div class="skill-name">Prometheus</div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-chart-pie skill-icon"></i>
+                        <div class="skill-name">Grafana</div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-filter skill-icon"></i>
+                        <div class="skill-name">Fluent Bit</div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-search skill-icon"></i>
+                        <div class="skill-name">OpenSearch</div>
+                    </div>
+                </div>
+                <div class="skills-content" id="cicd">
+                    <div class="skill-item">
+                        <i class="fa-brands fa-jenkins skill-icon"></i>
+                        <div class="skill-name">Jenkins</div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-gitlab skill-icon"></i>
+                        <div class="skill-name">GitLab CI</div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-github skill-icon"></i>
+                        <div class="skill-name">GitHub Actions</div>
+                    </div>
+                </div>
+                <div class="skills-content" id="programming">
+                    <div class="skill-item">
+                        <i class="fab fa-python skill-icon"></i>
+                        <div class="skill-name">Python</div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-terminal skill-icon"></i>
+                        <div class="skill-name">Bash</div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-file-code skill-icon"></i>
+                        <div class="skill-name">YAML</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
+                <a href="https://www.credly.com/badges/2355a659-2596-49c5-90f4-a0ea04c536de/public_url" target="_blank" class="certification-card">
+                    <img src="images/Developer-Associate.png" alt="AWS Certified Developer Associate Badge" class="certification-badge">
+                    <h3>AWS Certified Developer - Associate</h3>
+                </a>
+                <a href="https://www.credly.com/badges/4362611b-8560-4410-acdb-28dee400e6d1/public_url" target="_blank" class="certification-card">
+                    <img src="images/cloud-practitioner.png" alt="AWS Cloud Practitioner Badge" class="certification-badge">
+                    <h3>AWS Certified Cloud Practitioner</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's work together</h3>
+                    <p>I'm currently looking for new opportunities. Whether you have a question or just want to say hi, feel free to reach out through any of the channels below!</p>
+                    <div class="contact-methods">
+                        <a href="mailto:umairali43230@gmail.com" class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <span>umairali43230@gmail.com</span>
+                        </a>
+                        <a href="#" class="contact-method">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Berlin, Germany</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/syed-umair-ali-a67314101/" target="_blank" class="contact-method">
+                            <i class="fab fa-linkedin"></i>
+                            <span>linkedin.com/in/syed-umair-ali</span>
+                        </a>
+                        <a href="https://github.com/UmairAliShah" target="_blank" class="contact-method">
+                            <i class="fab fa-github"></i>
+                            <span>github.com/UmairAliShah</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">UA</div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#certifications">Certifications</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="social-links">
+                    <a href="#" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year">2025</span> Umair Ali. All rights reserved.</p>
+                <p>Designed & Built with ❤️ by Me</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#home" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="js/tabs.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
