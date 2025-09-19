@@ -184,6 +184,14 @@ nav {
     z-index: 1;
 }
 
+.profile-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 .about-stats {
     display: flex;
     gap: 1.5rem;
