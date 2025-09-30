@@ -1,0 +1,5 @@
+# Allow all
+User-agent: *
+Disallow: 
+
+Sitemap: https://umairali.de/sitemap.xml
